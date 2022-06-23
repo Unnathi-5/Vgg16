@@ -31,12 +31,12 @@ def make_data():
 				pass
 
 	print(len(data))
-	pik = open('flower.pickle','wb')
+	pik = open('knee.pickle','wb')
 	pickle.dump(data, pik)
 	pik.close()
 
 def load_data():
-	pick  = open('flower.pickle', 'rb')
+	pick  = open('knee.pickle', 'rb')
 	data = pickle.load(pick)
 
 	pick.close()
